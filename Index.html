@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoCan Solutions - Consultora Ambiental</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f0fdf4;
+     background-image: url("a.jpeg");
+
+      background-size: cover;
+      background-attachment: fixed;
+      color: #1b4332;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    nav a {
+      color: #2d6a4f;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 120px 20px;
+      background: rgba(255,255,255,0.85);
+      margin: 40px;
+      border-radius: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      color: #1b4332;
+    }
+
+    .btn {
+      background-color: #2d6a4f;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 1em;
+    }
+
+    .btn:hover {
+      background-color: #40916c;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.9);
+      margin: 40px;
+      border-radius: 20px;
+      padding: 40px;
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #2d6a4f;
+      margin-bottom: 30px;
+    }
+
+    .services, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-card {
+      background: #d8f3dc;
+      border-radius: 15px;
+      padding: 20px;
+      max-width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(255,255,255,0.95);
+      font-size: 0.9em;
+      color: #2d6a4f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="a.jpeg" alt="EcoCan Solutions Logo">
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>EcoCan Solutions</h1>
+    <p>Consultora ambiental orientada a la gestión sostenible de residuos y la promoción de prácticas responsables en instituciones y empresas.</p>
+    <button class="btn">Conoce nuestros talleres</button>
+  </section>
+
+  <section class="section" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>EcoCan Solutions es una iniciativa empresarial concebida como un proyecto a futuro, orientado a la gestión sostenible de residuos y la promoción de prácticas responsables en instituciones y empresas. Actualmente, la empresa se encuentra en una etapa de desarrollo inicial, conformada por un equipo de cinco personas con perfiles administrativos, técnicos y financieros comprometidos con la visión de construir un modelo sostenible e innovador.</p>
+
+    <h3 style="color:#1b4332; margin-top:30px;">Misión</h3>
+    <p>Brindar soluciones integrales para la gestión responsable de residuos, promoviendo prácticas sostenibles y educación ambiental en empresas e instituciones, contribuyendo al desarrollo de una economía circular y al cumplimiento normativo.</p>
+
+    <h3 style="color:#1b4332; margin-top:30px;">Visión</h3>
+    <p>Convertirnos en una empresa líder en Colombia en innovación y sostenibilidad, reconocida por transformar la gestión de residuos en oportunidades de valor, impactando positivamente en el medio ambiente y la sociedad.</p>
+  </section>
+
+  <section class="section" id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Talleres de Reciclaje</h3>
+        <p>Capacitaciones prácticas para empresas, colegios y comunidades sobre separación y reutilización de residuos.</p>
+      </div>
+      <div class="service-card">
+        <h3>Consultoría Ambiental</h3>
+        <p>Asesoría en planes de manejo de residuos y estrategias de economía circular adaptadas a las necesidades de cada cliente.</p>
+      </div>
+      <div class="service-card">
+        <h3>Programas Educativos</h3>
+        <p>Diseño de programas formativos en sostenibilidad ambiental, con metodologías participativas y prácticas.</p>
+      </div>
+      <div class="service-card">
+        <h3>Desarrollo Tecnológico</h3>
+        <p>Creación de herramientas digitales para la trazabilidad de residuos y la digitalización de procesos internos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="galeria">
+    <h2>Galería Ambiental</h2>
+    <div class="gallery">
+      <img src="b.jpeg" alt="Reciclaje">
+      <img src="c.jpeg" alt="Educación Ambiental">
+      <img src="d.jpeg" alt="Economía Circular">
+      <img src="e.jpeg" alt="Gestión de residuos">
+    </div>
+  </section>
+
+  <section class="section" id="contacto">
+    <h2>Contáctanos</h2>
+    <p style="text-align:center">¿Quieres más información o agendar un taller? Escríbenos y únete al cambio verde.</p>
+    <form style="text-align:center; margin-top:20px;">
+      <input type="text" placeholder="Nombre" style="padding:10px; margin:5px; width:250px;">
+      <input type="email" placeholder="Correo" style="padding:10px; margin:5px; width:250px;">
+      <br>
+      <textarea placeholder="Mensaje" rows="4" style="padding:10px; margin:5px; width:520px;"></textarea>
+      <br>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 EcoCan Solutions - Consultora Ambiental | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
